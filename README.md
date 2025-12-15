@@ -40,7 +40,7 @@ directory). To change the template root, you can configure the plugin:
 
 ```ruby
 class App < Roda
-  plugin :papercraft
+  plugin :papercraft, template_root: "html_views"
   ...
 end
 ```
